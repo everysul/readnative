@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Image, StyleSheet } from 'react-native';
+import { View, Image, StyleSheet, Text } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
@@ -19,6 +19,8 @@ const DisplayAnImage = () => {
   return (
     <View style={styles.container}>
      
+      <Text>Ejemplo</Text>
+
       <Image
         style={styles.tinyLogo}
         source={{
